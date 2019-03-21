@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/lwg123/testPodKit.git", :tag => "0.0.1" }
 
-  spec.source_files  = "testClass/*"
+spec.source_files  = 'testClass/**/*.{h,m}'
   spec.framework  = "UIKit"
 
 end
