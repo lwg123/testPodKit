@@ -1,24 +1,24 @@
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
-  spec.name         = "testPodKit"
-  spec.version      = "0.0.1"
-  spec.summary      = "这是一个测试cocoapod库的例子"
+  s.name         = "testPodKit"
+  s.version      = "0.0.2"
+  s.summary      = "这是一个测试cocoapod库的例子"
 
-  spec.description  = <<-DESC
-这是一个测试cocoapod库的例子，试试怎么样哈哈ARC and GCD Compatible Reachability Class for iOS and OS X
+  s.description  = <<-DESC
+这是一个测试cocoapod库的例子，试试怎么样哈哈
                    DESC
 
-  spec.homepage     = "https://github.com/lwg123/testPodKit"
-  spec.license      = { :type => "MIT" }
-  spec.author             = { "liweiguang@duia.com" => "weiguang.li@changhong.com" }
+  s.homepage     = "https://github.com/lwg123/testPodKit"
+  s.license      = { :type => "MIT" }
+  s.author             = { "liweiguang@duia.com" => "weiguang.li@changhong.com" }
 
-  spec.platform     = :ios
-  spec.ios.deployment_target = "9.0"
+  s.platform     = :ios
+  s.ios.deployment_target = "8.0"
 
-  spec.source       = { :git => "https://github.com/lwg123/testPodKit.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/lwg123/testPodKit.git", :tag => s.version.to_s}
 
-spec.source_files  = 'testClass/**/*.{h,m}'
-  spec.framework  = "UIKit"
+  s.source_files  = 'testPodKit/**/*.{h,m}'
+  s.framework  = "UIKit"
 
 end
