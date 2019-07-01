@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "testPodKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "这是一个测试cocoapod库的例子"
 
   s.description  = <<-DESC

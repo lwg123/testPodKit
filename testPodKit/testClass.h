@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface testClass : NSObject
-+(void)test;
++ (void)test;
+
+- (void)run;
 @end
 
 NS_ASSUME_NONNULL_END
